@@ -1,0 +1,38 @@
+2024-07-25 21:26:06,141 INFO    MainThread:17478 [wandb_setup.py:_flush():76] Current SDK version is 0.17.5
+2024-07-25 21:26:06,141 INFO    MainThread:17478 [wandb_setup.py:_flush():76] Configure stats pid to 17478
+2024-07-25 21:26:06,141 INFO    MainThread:17478 [wandb_setup.py:_flush():76] Loading settings from /teamspace/studios/this_studio/.config/wandb/settings
+2024-07-25 21:26:06,141 INFO    MainThread:17478 [wandb_setup.py:_flush():76] Loading settings from /teamspace/studios/this_studio/mlprojectcars/notebooks/wandb/settings
+2024-07-25 21:26:06,141 INFO    MainThread:17478 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-07-25 21:26:06,141 INFO    MainThread:17478 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-07-25 21:26:06,141 INFO    MainThread:17478 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-25 21:26:06,141 INFO    MainThread:17478 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-07-25 21:26:06,141 INFO    MainThread:17478 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-25 21:26:06,141 INFO    MainThread:17478 [wandb_init.py:_log_setup():529] Logging user logs to /teamspace/studios/this_studio/mlprojectcars/notebooks/wandb/run-20240725_212606-ovg4sqob/logs/debug.log
+2024-07-25 21:26:06,141 INFO    MainThread:17478 [wandb_init.py:_log_setup():530] Logging internal logs to /teamspace/studios/this_studio/mlprojectcars/notebooks/wandb/run-20240725_212606-ovg4sqob/logs/debug-internal.log
+2024-07-25 21:26:06,142 INFO    MainThread:17478 [wandb_init.py:init():569] calling init triggers
+2024-07-25 21:26:06,142 INFO    MainThread:17478 [wandb_init.py:init():576] wandb.init called with sweep_config: {}
+config: {'regressor__max_depth': 9, 'regressor__min_samples_leaf': 10, 'regressor__n_estimators': 100, 'method': 'Random Forest'}
+2024-07-25 21:26:06,142 INFO    MainThread:17478 [wandb_init.py:init():619] starting backend
+2024-07-25 21:26:06,142 INFO    MainThread:17478 [wandb_init.py:init():623] setting up manager
+2024-07-25 21:26:06,143 INFO    MainThread:17478 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-07-25 21:26:06,143 INFO    MainThread:17478 [wandb_init.py:init():631] backend started and connected
+2024-07-25 21:26:06,150 INFO    MainThread:17478 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2024-07-25 21:26:06,151 INFO    MainThread:17478 [wandb_run.py:_label_probe_notebook():1344] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-07-25 21:26:06,151 INFO    MainThread:17478 [wandb_init.py:init():720] updated telemetry
+2024-07-25 21:26:06,151 INFO    MainThread:17478 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-07-25 21:26:06,354 INFO    MainThread:17478 [wandb_run.py:_on_init():2435] communicating current version
+2024-07-25 21:26:06,372 WARNING MsgRouterThr:17478 [router.py:message_loop():77] message_loop has been closed
+2024-07-25 21:26:06,372 INFO    MainThread:17478 [wandb_run.py:_on_init():2444] got version response 
+2024-07-25 21:26:06,373 INFO    MainThread:17478 [wandb_init.py:init():804] starting run threads in backend
+2024-07-25 21:26:08,402 INFO    MainThread:17478 [wandb_run.py:_console_start():2413] atexit reg
+2024-07-25 21:26:08,402 INFO    MainThread:17478 [wandb_run.py:_redirect():2255] redirect: wrap_raw
+2024-07-25 21:26:08,402 INFO    MainThread:17478 [wandb_run.py:_redirect():2320] Wrapping output streams.
+2024-07-25 21:26:08,402 INFO    MainThread:17478 [wandb_run.py:_redirect():2345] Redirects installed.
+2024-07-25 21:26:08,403 INFO    MainThread:17478 [wandb_init.py:init():847] run started, returning control to user process
+2024-07-25 21:26:08,404 INFO    MainThread:17478 [wandb_run.py:_finish():2107] finishing run jdmartinev_/cars_gridsearch_cv_project/ovg4sqob
+2024-07-25 21:26:08,404 INFO    MainThread:17478 [wandb_run.py:_atexit_cleanup():2374] got exitcode: 0
+2024-07-25 21:26:08,404 INFO    MainThread:17478 [wandb_run.py:_restore():2352] restore
+2024-07-25 21:26:08,404 INFO    MainThread:17478 [wandb_run.py:_restore():2358] restore done
+2024-07-25 21:26:10,967 INFO    MainThread:17478 [wandb_run.py:_footer_history_summary_info():4016] rendering history
+2024-07-25 21:26:10,968 INFO    MainThread:17478 [wandb_run.py:_footer_history_summary_info():4048] rendering summary
+2024-07-25 21:26:10,973 INFO    MainThread:17478 [wandb_run.py:_footer_sync_info():3975] logging synced files

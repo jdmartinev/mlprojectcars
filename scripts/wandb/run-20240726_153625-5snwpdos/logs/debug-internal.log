@@ -1,0 +1,16 @@
+{"time":"2024-07-26T15:36:25.355750865Z","level":"INFO","msg":"using version","core version":"0.17.5"}
+{"time":"2024-07-26T15:36:25.35580622Z","level":"INFO","msg":"created symlink","path":"/teamspace/studios/this_studio/mlprojectcars/scripts/wandb/run-20240726_153625-5snwpdos/logs/debug-core.log"}
+{"time":"2024-07-26T15:36:25.35844594Z","level":"INFO","msg":"created new stream","id":"5snwpdos"}
+{"time":"2024-07-26T15:36:25.358622247Z","level":"INFO","msg":"handler: started","stream_id":{"value":"5snwpdos"}}
+{"time":"2024-07-26T15:36:25.358659421Z","level":"INFO","msg":"sender: started","stream_id":{"value":"5snwpdos"}}
+{"time":"2024-07-26T15:36:25.35869703Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"5snwpdos"}}
+{"time":"2024-07-26T15:36:25.573337462Z","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-07-26T15:36:25.614866Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-07-26T15:36:26.327175781Z","level":"INFO","msg":"sender: getServerInfo: got server info","serverInfo":{"cliVersionInfo":{"max_cli_version":"0.17.4","min_cli_version":"0.8.20"},"latestLocalVersionInfo":null}}
+{"time":"2024-07-26T15:36:26.32817191Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-07-26T15:36:26.328253167Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-07-26T15:36:26.380829008Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-07-26T15:36:26.380913306Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-07-26T15:36:26.380948857Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-07-26T15:36:27.737552112Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"5snwpdos"}}
+{"time":"2024-07-26T15:36:27.73763721Z","level":"INFO","msg":"sender: closed","stream_id":{"value":"5snwpdos"}}

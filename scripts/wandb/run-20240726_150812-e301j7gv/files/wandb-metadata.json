@@ -1,0 +1,66 @@
+{
+    "os": "Linux-5.15.0-1064-aws-x86_64-with-glibc2.31",
+    "python": "3.10.10",
+    "heartbeatAt": "2024-07-26T15:08:13.259169",
+    "startedAt": "2024-07-26T15:08:12.877670",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--random-state",
+        "123",
+        "--max-missing-percent",
+        "40",
+        "--n-estimators",
+        "50",
+        "200",
+        "--max-depth",
+        "6",
+        "7",
+        "8"
+    ],
+    "state": "running",
+    "program": "/teamspace/studios/this_studio/mlprojectcars/scripts/training.py",
+    "codePathLocal": "training.py",
+    "codePath": "training.py",
+    "host": "ip-10-192-10-134",
+    "username": "zeus",
+    "executable": "/home/zeus/miniconda3/envs/cloudspace/bin/python",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 2400.0,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2400.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2400.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2400.0,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 387.4823341369629,
+            "used": 28.336978912353516
+        }
+    },
+    "memory": {
+        "total": 15.337413787841797
+    }
+}
